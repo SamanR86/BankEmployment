@@ -7,8 +7,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankEmployment.Web", "BankE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0A2CFDA9-50D3-48C0-88CF-5D3CC5F2CC08}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{9AE21857-865A-4787-B3A4-DEB28C7FDACE}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankEmployment.Infrastructure", "BankEmployment.Infrastructure\BankEmployment.Infrastructure.csproj", "{66A969D4-70A1-4838-ACAD-6C31BFF11097}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BankEmployment.Domain", "BankEmployment.Domain\BankEmployment.Domain.csproj", "{F9D9753A-14C1-49C0-8E5E-9B83E7FC96F2}"

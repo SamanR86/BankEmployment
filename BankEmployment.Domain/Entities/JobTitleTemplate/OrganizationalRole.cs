@@ -5,13 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using BankEmployment.Domain.BaseEntities;
 
-namespace BankEmployment.Domain.Interfaces
+namespace BankEmployment.Domain.Entities
 {
-    public interface IBaseCrud
+    public class OrganizationalRole:IBase
     {
-        Task<bool> Add(IBase iBase);
-        bool Update(IBase iBase);
-
-
+        public string? Title { get; set; }
+        public string? Description { get; set; }
     }
 }

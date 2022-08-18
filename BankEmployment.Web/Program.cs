@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorPages();
 builder.Services.AddDbContext<BankEmploymentDBContext>(option =>
     option.UseSqlServer(builder.Configuration.GetConnectionString("BankEmploymentConnectionString")));
-builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
+//builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWorkRepository>();
 
 

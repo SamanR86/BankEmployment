@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using BankEmployment.Domain.BaseEntities;
 
-namespace BankEmployment.Domain.Interfaces
+namespace BankEmployment.Domain.Entities
 {
-    public interface IBranchRepository:IBaseCrud
+    public class JobTitle:IBase 
     {
-        Task<List<IBase>> GetByAddress(string address);
-
+        public string? Title { get; set; }
+        public string? Description { get; set; } 
     }
 }
